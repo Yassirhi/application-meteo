@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}    
+
+body {
+  display: flex;
+  justify-content: center;   
+  align-items: center;       
+
+}
+
+.card{
+    width: 90%;
+    max-width: 470px;
+    background: #48F3E5;
+    border-radius: 15px;
+    padding: 40px 35px 60px;
+    text-align: center;
+    position: relative;
+    
+}
+.search{
+    padding: 40px;
+}
+.search input{
+    border-radius: 25px;
+    padding: 10px;
+    border: none;
+}
+.search button{
+    border-radius: 15px;
+    padding: 10px;
+    border: none;
+}
+.p{
+    font-weight: bolder;
+}
+
+.details{
+    display: flex;
+    justify-content:space-between;
+}
+img{
+    width:50px;
+}
+#toggle-theme{
+    border-radius: 15px;
+    padding: 7px;
+    border: none;
+    position:absolute;
+    transform: translateX(-50%);
+    bottom: 15px;
+
+}
+.card.night-theme {
+  background: #1e1e2f;
+  color: #f0f0f0;
+}
+
+#weather-icon{
+    width: 100px;
+}
+.desc{
+    font-weight: bolder;
+    padding-bottom: 15px;
+}
+#m{
+    width: 100px;
+}
+@media (max-width: 600px) {
+      .card {
+        flex: 1 1 100%;
+      }
+}

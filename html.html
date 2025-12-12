@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>Meteo App</title>
+</head>
+<body>
+    
+    <div class="card"> 
+        <h2>Application Météo</h2>   
+        <div class="search">
+            <input type="text" id="city" placeholder="Entrez une ville">
+            <button id="btn" >Rechercher</button>
+        </div>
+            <img id="m" src="images/4571485.png">
+            <h3 class="city"></h3>
+            <h3 class="country"></h3>
+            <img id="weather-icon" >
+            <p class="desc"></p>
+            <p class="temp"></p> 
+        <div class="details">
+            <div>
+                <img class="icon" src="images/wind.svg">
+                <p  class="p">Wind speed</p>
+                <p class="wind"></p>
+            </div>
+            <div>
+                <img class ="icon" src="images/humidity.svg" >
+                <p class="p">humidity</p>
+                <p class="humidity"></p>
+            </div>
+
+                
+            </div>
+            <button id="toggle-theme">Mode Nuit</button> 
+        </div>
+        
+    
+    </div> 
+    <script src="script.js"></script>
+</body>
+</html>
