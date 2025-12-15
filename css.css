@@ -16,11 +16,11 @@ body {
     width: 90%;
     max-width: 470px;
     background: linear-gradient(to bottom, #48F3E5, rgb(0, 255, 153));
-   
     border-radius: 15px;
     padding: 40px 35px 60px;
     text-align: center;
     position: relative;
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.3);
     
 }
 .search{
